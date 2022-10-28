@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .option-view {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 20px;
     width: 100%;
     text-align: right;
 }
@@ -20,13 +20,16 @@
 .speaker-view, .zoom-in-out {
     padding: 2px;
     background-color: grey;
+    border-radius: 5px;
 }
 
+/* corpo della pagina */
 main {
     padding-top: 80px;
     width: 100vw;
     height: calc(100vh - 100px);
     overflow-y: auto;
+    background-color: black;
 }
 
 .container-main {
@@ -40,24 +43,26 @@ main {
     flex-wrap: wrap;
 }
 
-/* .row .col-little-main {
-    display: inline-block;
-} */
-
 .users {
     position: relative;
 }
 
 .users img {
-    width: 230px;
-    height: auto;
+    width: 235px;
+    height: 130px;
 }
 
 .user-name {
     padding: 4px;
     color: white;
-    background-color: #80808057;
+    background-color: #00000082;
     position: absolute;
     bottom: 4px;
     left: 0;
+}
+
+/* fondo della pagina */
+footer {
+    height: 100px;
+    background-color: blue;
 }
