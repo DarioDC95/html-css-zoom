@@ -13,6 +13,7 @@
     width: 100%;
     text-align: right;
     z-index: 1;
+    color: white;
 }
 
 .inline-block {
@@ -47,6 +48,10 @@ main {
     display: inline-block;
     position: relative;
     margin: 5px 1px;
+}
+
+.users span, .option-view span {
+    font-size: small;
 }
 
 .users img {
