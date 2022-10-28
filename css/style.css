@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .option-view {
@@ -37,10 +37,13 @@ main {
 }
 
 .row {
-    margin-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.row .col-little-main {
+    margin: 5px;
 }
 
 .users {
@@ -48,7 +51,7 @@ main {
 }
 
 .users img {
-    width: 235px;
+    width: 225px;
     height: 130px;
 }
 
