@@ -31,12 +31,23 @@ main {
     margin: 0 80px;
 }
 
-.row .col-little-main {
-    display: inline-block;
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+/* .row .col-little-main {
+    display: inline-block;
+} */
 
 .users {
     position: relative;
+}
+
+.users img {
+    width: 230px;
+    height: auto;
 }
 
 .user-name {
