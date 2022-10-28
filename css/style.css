@@ -11,6 +11,7 @@
     right: 20px;
     width: 100%;
     text-align: right;
+    z-index: 1;
 }
 
 .inline-block {
@@ -36,18 +37,14 @@ main {
     margin: 0 80px;
 }
 
-.row {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.row .col-little-main {
-    margin: 5px;
+.row .col-main {
+    text-align: center;
 }
 
 .users {
+    display: inline-block;
     position: relative;
+    margin: 5px;
 }
 
 .users img {
