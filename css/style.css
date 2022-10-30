@@ -21,7 +21,7 @@
 }
 
 .speaker-view, .zoom-in-out {
-    padding: 2px;
+    padding: 5px;
     background-color: grey;
     border-radius: 5px;
 }
