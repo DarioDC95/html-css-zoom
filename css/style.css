@@ -76,9 +76,6 @@ footer {
 
 .container-footer {
     height: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
 }
 
 .container-footer .row {
